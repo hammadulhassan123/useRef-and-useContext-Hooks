@@ -7,7 +7,7 @@ const FunctionContextComponent = () => {
   const darkTheme = useTheme();
   const toggleTheme = useThemeUpdate();
   const themeStyles={
-    backgroundColor: darkTheme ? '#646cffaa' : "#61dafbaa",
+    backgroundColor: darkTheme ? '#3333' : "#CCC",
     color: darkTheme ? "#CCC" : "#333",
     padding: '2rem',
     margin: '2rem',
